@@ -2,14 +2,14 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'mranv', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/git-profile/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 999, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['mranv/git-profile', 'mranv/ebpf-file-monitor'],
       },
     },
     external: {
@@ -52,40 +52,90 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Anubhav Gain',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'anubhavgain',
+    twitter: 'AnubhavGain',
+    mastodon: 'mranv@mastodon.social',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: 'mranv',
+    dev: 'mranv',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://mranv.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'iamanubhavgain@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://mranv.github.io/docs/ANUBHAV_GAIN_resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Rust (Programming Language)',
+    'Minimal Linux Image',
+    'Information Security',
+    'Threat & Vulnerability Management',
+    'Cyber Security and InfoSec',
+    'Security Frameworks and Controls',
+    'Python (Programming Language)',
+    'Incident Response',
+    'Security Information and Event Management (SIEM)',
+    'Antimalware Protection',
+    'Application Security',
+    'Stash',
+    'Single Sign-On (SSO)',
+    'Accelerate cloud adoption with the Microsoft Cloud Adoption Framework for Azure',
+    'Security Operations Center',
+    'PHPPHP',
+    'PU SUPPORTPU SUPPORT',
+    'MySQL',
+    'Securing Networking Protocols',
+    'Protecting Your Information (An Executive\'s Guide to Security)',
+    'Hardened Security Topologies',
+    'Session & Risk Management',
+    'APT Defenses',
+    'Honeypots',
+    'Routing Protocols',
+    'Troubleshooting',
+    'Transport Layer Security (TLS)',
+    'Traceroute',
+    'OSI Model',
+    'Domain Name System (DNS)',
+    'Windows',
+    'Red Hat Linux',
+    'Palo Alto Networks',
+    'Network Address Translation (NAT)',
+    'SQL',
+    'Microsoft Endpoint Configuration Manager',
+    'Android',
+    'Amazon Web Services (AWS)',
+    'Linux',
+    'Mac OS X Server',
+    'Network Security',
+    'Software Project Management',
+    'ISO/IEC 27001 Information Security Associate™',
+    'Mac & PC platforms',
+    'Network Design',
+    'Network Switches',
+    'Operating Systems',
+    'IPv4 / IPv6 Addresses',
+    'Wireless Access',
+    'System Safeguard',
+    'Threat Analysis',
+    'Cybersecurity Administration',
+    'Network Defense',
     'JavaScript',
     'React.js',
     'Node.js',
     'Nest.js',
-    'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
@@ -93,7 +143,8 @@ const CONFIG = {
     'CSS',
     'Antd',
     'Tailwind',
-  ],
+],
+
   experiences: [
     {
       company: 'Company Name',
@@ -135,7 +186,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'mranv', // to hide blog section, keep it empty
     limit: 3, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -211,7 +262,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/mranv/git-profile"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
