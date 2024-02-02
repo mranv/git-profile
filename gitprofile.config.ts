@@ -51,17 +51,18 @@ const CONFIG = {
       ],
     },
   },
-  seo: {
-    title: 'Portfolio of Anubhav Gain',
-    description: '',
-    imageURL: '',
-  },
+seo: {
+  title: 'Anubhav Gain - IT Specialist | System Support | Cybersecurity',
+  description: 'Anubhav Gain is a dedicated and passionate IT Specialist with expertise in system support, lab tech, and cybersecurity. Currently working at Parul University, Anubhav excels in providing exceptional technical troubleshooting and support to ensure smooth operations. Specializing in Cyber/Computer Forensics and Counterterrorism, Anubhav holds multiple certifications and possesses expertise in Transport Layer Security (TLS), Traceroute, OSI Model, DNS, and CentOS. With a commitment to continuous learning and growth, Anubhav is highly valued for their exceptional diplomacy, communication skills, and ability to work effectively within teams. Anubhav is a valuable asset with a strong dedication to excellence in all aspects of their work.',
+  imageURL: '/public/1681272981620.jpeg',
+},
+
   social: {
     linkedin: 'anubhavgain',
     twitter: 'AnubhavGain',
     mastodon: 'mranv@mastodon.social',
     facebook: '',
-    instagram: '',
+    instagram: 'anubhavgain',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
@@ -71,7 +72,7 @@ const CONFIG = {
     skype: '',
     telegram: '',
     website: 'https://mranv.github.io',
-    phone: '',
+    phone: '+919407601376',
     email: 'iamanubhavgain@gmail.com',
   },
   resume: {
@@ -144,24 +145,79 @@ const CONFIG = {
     'Antd',
     'Tailwind',
 ],
-
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'techanv Consulting',
+      position: 'Owner',
+      from: 'Dec 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://techanvconsulting.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Parul University',
+      position: 'IT Specialist',
+      from: 'Nov 2022',
+      to: 'Oct 2023',
+      companyLink: 'https://paruluniversity.ac.in',
+    },
+    {
+      company: 'JPMorgan Chase & Co.',
+      position: 'Data Analyst - Fraud Detection in Financial Payment Services',
+      from: 'Jul 2023',
+      to: 'Aug 2023',
+      companyLink: 'https://www.jpmorganchase.com',
+    },
+    {
+      company: 'ANZ',
+      position: 'Social Engineering Investigation in Digital Forensics',
+      from: 'Jul 2023',
+      to: 'Aug 2023',
+      companyLink: 'https://www.anz.com.au',
+    },
+    {
+      company: 'Mastercard',
+      position: 'Designing a Phishing Email Simulation and Interpreting Results',
+      from: 'Jun 2023',
+      to: 'Jul 2023',
+      companyLink: 'https://www.mastercard.us',
+    },
+    {
+      company: 'Datacom',
+      position: 'APT Breach: Analyzing the Impact on Information Security',
+      from: 'Jun 2023',
+      to: 'Jul 2023',
+      companyLink: 'https://www.datacom.co.nz',
+    },
+    {
+      company: 'Telstra',
+      position: 'Navigating the Storm: A Comprehensive Guide to Responding to Malware Attacks',
+      from: 'May 2023',
+      to: 'Jul 2023',
+      companyLink: 'https://www.telstra.com',
+    },
+    {
+      company: 'PwC',
+      position: 'Designing a Phishing Email Simulation and Interpreting Result',
+      from: 'May 2023',
+      to: 'Jul 2023',
+      companyLink: 'https://www.pwc.com',
+    },
+    {
+      company: 'AIG',
+      position: 'Responding to Zero-Day Vulnerability & Bypassing Ransomware',
+      from: 'Apr 2023',
+      to: 'Jul 2023',
+      companyLink: 'https://www.aig.com',
+    },
+    {
+      company: 'Clifford Chance',
+      position: 'Practical Guidance on an ICO Dawn Raid and Handling Data Leak Damages Claims',
+      from: 'Mar 2023',
+      to: 'Jul 2023',
+      companyLink: 'https://www.cliffordchance.com',
     },
   ],
-  certifications: [
+certifications: [
     {
       name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
@@ -171,18 +227,26 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Parul University',
+      degree: 'Bachelor of Technology - BTech, Cyber/Computer Forensics and Counterterrorism',
+      from: '2021',
+      to: '2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Charles Sturt University',
+      degree: 'Licentiate degree, Ransomware Techniques',
+      from: 'Mar 2023',
+      to: 'Sep 2023',
+      grade: 'Pass (51/100)',
     },
-  ],
+    {
+      institution: 'Charles Sturt University',
+      degree: 'Licentiate degree, Cybersecurity Management',
+      from: 'Jan 2023',
+      to: 'Sep 2023',
+      grade: 'High Distinction (93/100)',
+    },
+],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
